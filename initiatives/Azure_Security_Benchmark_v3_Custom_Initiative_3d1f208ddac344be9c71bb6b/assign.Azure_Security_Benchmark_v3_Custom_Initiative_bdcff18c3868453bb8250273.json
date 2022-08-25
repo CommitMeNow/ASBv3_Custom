@@ -1,0 +1,31 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "d0288de7-ed25-4cef-9214-4d06a3d2d29e",
+  "tenantId": "3125354f-9149-4ca2-9e4c-0edd5c913393",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Azure Security Benchmark v3 Custom Initiative",
+  "policyDefinitionId": "/subscriptions/d4b9ab0a-e815-44d5-a6b4-b2258484f907/providers/Microsoft.Authorization/policySetDefinitions/3d1f208ddac344be9c71bb6b",
+  "scope": "/subscriptions/d4b9ab0a-e815-44d5-a6b4-b2258484f907",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "OCAG 336",
+   "parameterScopes": {},
+   "createdBy": "f76edd6d-ebbc-4a61-82ba-ec451caf2215",
+   "createdOn": "2022-08-25T17:27:31.1146426Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/d4b9ab0a-e815-44d5-a6b4-b2258484f907/providers/Microsoft.Authorization/policyAssignments/bdcff18c3868453bb8250273",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "bdcff18c3868453bb8250273",
+ "location": "eastus2"
+}
