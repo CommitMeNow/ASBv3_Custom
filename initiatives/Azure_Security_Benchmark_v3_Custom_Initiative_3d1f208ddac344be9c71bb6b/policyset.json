@@ -1,0 +1,28 @@
+{
+ "properties": {
+  "displayName": "Azure Security Benchmark v3 Custom Initiative",
+  "policyType": "Custom",
+  "description": "Azure Security Benchmark v3 Custom Initiative",
+  "metadata": {
+   "category": "Security Center",
+   "version": "1.0.0",
+   "createdBy": "f76edd6d-ebbc-4a61-82ba-ec451caf2215",
+   "createdOn": "2022-08-25T14:51:18.2380174Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/d4b9ab0a-e815-44d5-a6b4-b2258484f907/providers/Microsoft.Authorization/policySetDefinitions/3d1f208ddac344be9c71bb6b",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "3d1f208ddac344be9c71bb6b"
+}
